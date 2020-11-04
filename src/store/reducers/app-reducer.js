@@ -1,7 +1,7 @@
 import { appTypes } from "../actions";
 
 const INITIAL_STATE = {
-  initialized: false,
+  initialized: false
 };
 
 export const app = (state = INITIAL_STATE, action) => {

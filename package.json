@@ -1,18 +1,18 @@
 {
   "name": "cra-template-paipe-front",
-  "version": "0.1.0",
+  "version": "0.6.0",
   "main": "template.json",
   "keywords": [
-    "react",
-    "template"
+    "paipe",
+    "template",
+    "front",
+    "atomic-design"
   ],
   "files": [
     "template",
     "template.json"
   ],
   "dependencies": {
-    "framer-motion": "2.9.4",
-    "prettier": "2.1.2",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-redux": "7.2.2",
@@ -32,7 +32,7 @@
     "eject": "react-scripts eject",
     "clean-files": "rm -rf ./template/public ./template/src",
     "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public",
-    "prepublishOnly": "yarn clean-files && yarn copy-files"
+    "prepublishOnly": "npm run clean-files && npm run copy-files"
   },
   "eslintConfig": {
     "extends": [

@@ -17,5 +17,5 @@ const initialize = () => {
 };
 
 export const appActions = {
-  initialize,
+  initialize
 };

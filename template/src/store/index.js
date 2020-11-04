@@ -8,7 +8,7 @@ const loggerMiddleware = createLogger();
 const middlewares = applyMiddleware(thunkMiddleware, loggerMiddleware);
 
 const reducers = combineReducers({
-  app,
+  app
 });
 
 export const store = createStore(

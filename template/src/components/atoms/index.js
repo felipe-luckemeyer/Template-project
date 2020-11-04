@@ -1,5 +1,3 @@
 import Button from "./Button/button";
 
-export {
-    Button
-}
+export { Button };
