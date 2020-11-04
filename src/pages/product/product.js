@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Product = () => {
-    return (
-        <ul>
-            product
-        </ul>
-    )
+  return (
+    <ul>
+      product
+    </ul>
+  );
 }
 
-export default Product
+export default Product;
